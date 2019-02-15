@@ -9,9 +9,8 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
+import javax.validation.constraints.Email;
 import javax.validation.constraints.Size;
-
-import org.hibernate.validator.constraints.Email;
 
 @Entity
 public class User implements Serializable {
